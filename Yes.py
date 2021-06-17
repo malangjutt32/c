@@ -15,7 +15,6 @@ def reg():
     if to in r:
         print '\x1b[1;92mWelcome To Jutt Badshah Cython Enc Tool'
         time.sleep(5)
-        print ("\t\033[0;30mJutt")
         os.system("python2 64bit.py build_ext --inplace")
     else:
         os.system('clear')
