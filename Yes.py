@@ -5,7 +5,7 @@ bit=platform.architecture()[0]
 
 if bit=="64bit":
     import jatt
-    jatt.reg()
+    jatt.sec1()
 elif bit=="32bit":
     import jatti
-    jatti.reg()
+    jatti.sec1()
